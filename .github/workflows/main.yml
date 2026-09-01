@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Feed Generator
-        uses: tu-usuario/podcast-generator@main
+        uses: alipacala/podcast-generator@main
         with:
           email: '${{ github.actor }}@users.noreply.github.com'
           name: '${{ github.actor }}'
